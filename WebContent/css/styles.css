@@ -1,0 +1,129 @@
+.main
+{
+	border: 1px solid #0053A6;
+	width:600px;
+	height:auto;
+	box-shadow:1px 1px 1px #FF0000;
+	margin: 0 auto;
+}
+fieldset 
+{
+	margin: 0 auto;
+	border: 1px solid #0053A6;
+	width:400px;
+	height:auto;
+	box-shadow:1px 1px 1px #FF0000;
+}
+legend 
+{
+  padding: 0.2em 0.5em;
+  border:1px solid green;
+  color:green;
+  font-size:90%;
+  text-align:right;
+  box-shadow:1px 1px 1px #FF0000;
+  font-weight: bold;
+}
+.loginMain
+{
+	width:400px;
+	height:auto;
+}
+.photo
+{
+	width:70px;
+	height:55px;
+	float:left;
+	margin-left:10px;
+	margin-top:20px;
+}
+.divright_content
+{
+	//border: 1px solid #666666;
+	width:300;
+	height:100;
+	float:right;
+	margin-right:4px;
+	margin-top:4px;
+	//box-shadow:1px 1px #DDDDDD;
+}
+.label {
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:left;
+  font-weight:bold;
+  font-size:14px;
+  text-shadow: 1px 1px 1px #888888;
+  }
+  input.shadow {
+	background: white;
+	border: 1px solid #8ECEA2;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px #ffa853;
+	color: black;
+	float: left;
+	outline: none;
+}
+select.shadow {
+	background: white;
+	border: 1px solid #8ECEA2;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px #ffa853;
+	color: black;
+	float: left;
+	outline: none;
+}
+/*This is the CSS Code for Submit Button*/
+input#gobutton{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:1px 2px; /*add some padding to the inside of the button*/
+background:#35b128; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:#f3f3f3;
+font-size:12px;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#gobutton:hover, input#gobutton:focus{
+background-color :#FF8040; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+a:link {
+	color:#F00;
+	font-size: 12px;
+	font-weight:bold;
+	font-family: arial, helvetica, sans-serif;
+	text-decoration: none;
+	}
+a:visited {
+	color:#09F;
+	font-size:12px;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	text-decoration: none;
+	}
+a:hover {
+	color: #936;
+	font-size:14px;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	text-decoration: none;
+	}
+a:active {
+	color:#09F;
+	font-size:12px;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	text-decoration: none;
+	}

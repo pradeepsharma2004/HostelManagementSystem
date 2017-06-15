@@ -1,0 +1,143 @@
+.main
+{
+	width:700px;
+	height:auto;
+	margin: 0 auto;
+}
+fieldset 
+{
+	margin: 0 auto;
+	border: 1px solid #0053A6;
+	height:auto;
+	box-shadow:1px 1px 1px #FF0000;
+	margin: 0 auto;
+}
+legend 
+{
+  padding: 0.2em 0.5em;
+  border:1px solid green;
+  color:green;
+  font-size:90%;
+  text-align:right;
+  box-shadow:1px 1px 1px #FF0000;
+  font-weight: bold;
+}
+body {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin: 0px;
+	padding: 20px 10px 0px;
+}
+.headingBar{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:15px;
+    color:#FFF;
+    font-weight:bold;
+    background-color:#66C;
+    padding-left:10px;
+    text-align:left;
+    border-bottom:1px #899E8C solid;
+    border-right:1px #899E8C solid;
+	box-shadow: 1px 1px 5px #888888;
+	border:1px solid #000000; 
+	
+}
+h1 {
+	color: #99CC00;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #E6E8ED;
+}
+.label {
+  float:left;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+  font-size:14px;
+  }
+b.decoration{
+	font-size:9px;
+	color:#F0F;
+}
+input, textarea, select {
+    font-family:tahoma;
+    font-size:13px;
+    color:#333333;
+	padding:2px;
+}
+input:focus
+{
+background-color:#F9F7D2;
+}
+textarea.shadow
+{
+	background: white;
+	border: 1px solid #8ECEA2;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px #ffa853;
+	color: #666;
+	float: left;
+	outline: none;
+}
+input.shadow {
+	background:white;
+	border: 1px solid #8ECEA2;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px #ffa853;
+	color: #666;
+	float: left;
+	outline: none;
+}
+date.shadow
+{
+	background: white;
+	border: 1px solid #8ECEA2;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px #ffa853;
+	color: #666;
+	float: left;
+	outline: none;
+}
+select.shadow
+{
+	background: white;
+	border: 1px solid #8ECEA2;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px #ffa853;
+	color: #666;
+	float: left;
+	outline: none;
+}
+hr
+{
+	color: #99CC00;
+	border-bottom: 1px dashed #E6E8ED;
+}
+/*This is the CSS Code for Submit Button*/
+input.gobutton{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:1px 2px; /*add some padding to the inside of the button*/
+background:#35b128; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:#f3f3f3;
+font-size:12px;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input.gobutton:hover, input.gobutton:focus{
+background-color :#FF8040; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
